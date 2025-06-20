@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --color-darkBlue: hsl(217, 28%, 15%);
+  --color-darkBlue1: hsl(218, 28%, 13%);
+  --color-darkBlue2: hsl(216, 53%, 9%);
+  --color-darkBlue3: hsl(219, 30%, 18%);
+  --color-accentCyan: hsl(176, 68%, 64%);
+  --color-accentBlue: hsl(198, 60%, 50%);
+  --color-lightRed: hsl(0, 100%, 63%);
+  --font-rail:  "Dosis", sans-serif;
+  --font-opensans:  "Indie Flower", cursive;
+}
+.bg-logo-dark-mode {
+  background-image: url("../src/images/logo-dark-mode.svg");
+  background-size: cover;
+  background-position: center;
+}
+.bg-logo-light-mode {
+  background-image: url("../src/images/logo-light-mode.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-curvy-dark-mode {
+  background-image: url("../src/images/bg-curvy-dark-mode.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-curvy-light-mode {
+  background-image: url("../src/images/bg-curvy-light-mode.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+@layer base {
+  h5 {
+     @apply text-xl font-semibold mt-5 text-center
+  }
+}
+
