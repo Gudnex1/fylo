@@ -201,6 +201,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .-top-10 {
     top: calc(var(--spacing) * -10);
   }
@@ -254,6 +257,9 @@
   }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
+  }
+  .contents {
+    display: contents;
   }
   .flex {
     display: flex;
