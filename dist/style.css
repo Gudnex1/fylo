@@ -400,9 +400,6 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
-  .bg-accentCyan {
-    background-color: var(--color-accentCyan);
-  }
   .bg-darkBlue {
     background-color: var(--color-darkBlue);
   }
@@ -689,47 +686,47 @@
     }
   }
   .dark\:bg-accentCyan {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-accentCyan);
     }
   }
   .dark\:bg-darkBlue {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-darkBlue);
     }
   }
   .dark\:bg-darkBlue1 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-darkBlue1);
     }
   }
   .dark\:bg-darkBlue2 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-darkBlue2);
     }
   }
   .dark\:bg-darkBlue3 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-darkBlue3);
     }
   }
   .dark\:bg-\[url\(\'\.\.\/src\/images\/bg-curvy-dark-mode\.svg\'\)\] {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-image: url('../src/images/bg-curvy-dark-mode.svg');
     }
   }
   .dark\:bg-\[url\(\'\.\.\/src\/images\/logo-dark-mode\.svg\'\)\] {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-image: url('../src/images/logo-dark-mode.svg');
     }
   }
   .dark\:text-accentCyan {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       color: var(--color-accentCyan);
     }
   }
   .dark\:text-white {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       color: var(--color-white);
     }
   }
